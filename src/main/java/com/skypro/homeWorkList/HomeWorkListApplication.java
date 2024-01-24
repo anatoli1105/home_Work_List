@@ -9,7 +9,4 @@ public class HomeWorkListApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(HomeWorkListApplication.class, args);
 	}
-
-
-
 }

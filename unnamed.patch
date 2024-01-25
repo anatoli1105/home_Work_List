@@ -1,0 +1,32 @@
+Index: homeWorkList/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/homeWorkList/.gitignore b/homeWorkList/.gitignore
+--- a/homeWorkList/.gitignore	(revision 55841eb3963b3923fa79a58eeb07f0d55eb6176c)
++++ b/homeWorkList/.gitignore	(revision 1f1ae74f591fb3b2af4ae58f2cfa5ea22dd2f31d)
+@@ -3,6 +3,8 @@
+ !.mvn/wrapper/maven-wrapper.jar
+ !**/src/main/**/target/
+ !**/src/test/**/target/
++pom.xml
++HELP.md
+ 
+ 
+ ### STS ###
+Index: homeWorkList/src/main/java/com/skypro/homeWorkList/HomeWorkListApplication.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/homeWorkList/src/main/java/com/skypro/homeWorkList/HomeWorkListApplication.java b/homeWorkList/src/main/java/com/skypro/homeWorkList/HomeWorkListApplication.java
+--- a/homeWorkList/src/main/java/com/skypro/homeWorkList/HomeWorkListApplication.java	(revision 55841eb3963b3923fa79a58eeb07f0d55eb6176c)
++++ b/homeWorkList/src/main/java/com/skypro/homeWorkList/HomeWorkListApplication.java	(revision 1f1ae74f591fb3b2af4ae58f2cfa5ea22dd2f31d)
+@@ -9,4 +9,6 @@
+ 	public static void main(String[] args) {
+ 		SpringApplication.run(HomeWorkListApplication.class, args);
+ 	}
++
++
+ }

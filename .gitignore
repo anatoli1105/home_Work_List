@@ -13,8 +13,10 @@ target/
 .springBeans
 .sts4-cache
 pom.xml
-
-### IntelliJ IDEA ###
+mvnw.cmd
+unnamed.patch
+.idea
+pom.xml###ntelliJ IDEA ###
 .idea
 *.iws
 *.iml

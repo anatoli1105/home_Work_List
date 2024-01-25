@@ -15,6 +15,8 @@ public class EmployeeServis {
         }
         Employee employee = find(secondName, firstname);
 
+
+
         if (employee != null) {
             throw new EmployeeAlredyAddedException();
         }

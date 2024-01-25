@@ -30,6 +30,8 @@ public class Controller {
         return (servis.findWorker(secondName,firstName));
 
     }
+
+
     @GetMapping(path ="/remove")
     public  void removeWorker(@RequestParam String secondName,@RequestParam String firstName) {
 
